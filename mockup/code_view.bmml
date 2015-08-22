@@ -23,7 +23,7 @@
       </controlProperties>
     </control>
     <control controlID="31" controlTypeID="com.balsamiq.mockups::Canvas" x="489" y="153" w="218" h="333" measuredW="100" measuredH="70" zOrder="4" locked="false" isInGroup="-1"/>
-    <control controlID="33" controlTypeID="com.balsamiq.mockups::Image" x="493" y="157" w="210" h="324" measuredW="257" measuredH="316" zOrder="5" locked="false" isInGroup="-1">
+    <control controlID="34" controlTypeID="com.balsamiq.mockups::Image" x="492" y="156" w="213" h="326" measuredW="179" measuredH="246" zOrder="5" locked="false" isInGroup="-1">
       <controlProperties>
         <src>./assets/code.png</src>
         <text/>
