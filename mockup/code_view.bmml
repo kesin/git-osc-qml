@@ -17,9 +17,9 @@
         <borderColor>14540253</borderColor>
       </controlProperties>
     </control>
-    <control controlID="28" controlTypeID="com.balsamiq.mockups::Label" x="534" y="116" w="-1" h="-1" measuredW="52" measuredH="21" zOrder="3" locked="false" isInGroup="-1">
+    <control controlID="28" controlTypeID="com.balsamiq.mockups::Label" x="534" y="116" w="-1" h="-1" measuredW="42" measuredH="21" zOrder="3" locked="false" isInGroup="-1">
       <controlProperties>
-        <text>main.css</text>
+        <text>main.js</text>
       </controlProperties>
     </control>
     <control controlID="31" controlTypeID="com.balsamiq.mockups::Canvas" x="489" y="153" w="218" h="333" measuredW="100" measuredH="70" zOrder="4" locked="false" isInGroup="-1"/>
