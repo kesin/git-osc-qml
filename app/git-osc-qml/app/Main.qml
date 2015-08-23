@@ -48,6 +48,11 @@ MainView {
                             text: "Item "+modelData
                         }
                     }
+                    tools: ToolbarItems {
+                        ToolbarButton {
+                            action: reloadAction
+                        }
+                    }
 //                    Button {
 //                        anchors.centerIn: parent
 //                        onClicked: pageStack.push(project)
@@ -63,6 +68,11 @@ MainView {
                         onClicked: pageStack.push(project)
                         text: "Hot"
                     }
+                    tools: ToolbarItems {
+                        ToolbarButton {
+                            action: reloadAction
+                        }
+                    }
                 }
             }
             Tab {
@@ -72,6 +82,11 @@ MainView {
                         anchors.centerIn: parent
                         onClicked: pageStack.push(project)
                         text: "Latest"
+                    }
+                    tools: ToolbarItems {
+                        ToolbarButton {
+                            action: reloadAction
+                        }
                     }
                 }
             }
