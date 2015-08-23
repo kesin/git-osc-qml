@@ -51,8 +51,11 @@ MainView {
 
                         delegate: ListItem.Standard {
                             iconName: "compose"
-
                             text: model.name + " : " +model.description
+                            onClicked: {
+
+                                            pageStack.push(project)
+                                        }
                         }
                     }
                     tools: ToolbarItems {
@@ -101,10 +104,11 @@ MainView {
         Page {
             id: project
             visible: false
-            title: "Page on stack"
+            title: "Project details"
             Label {
+                id: project_model
                 anchors.centerIn: parent
-                text: "Press back to return to the tabs"
+                text: "welcome to project : "
             }
         }
     }
