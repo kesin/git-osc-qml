@@ -51,6 +51,7 @@ MainView {
 
                         delegate: ListItem.Standard {
                             iconName: "compose"
+
                             text: model.name + " : " +model.description
                         }
                     }
