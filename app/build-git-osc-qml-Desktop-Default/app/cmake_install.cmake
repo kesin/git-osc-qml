@@ -45,6 +45,11 @@ FILE(INSTALL DESTINATION "/" TYPE FILE FILES "/media/psf/Home/Resources/git-osc-
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/qml/git-osc-qml" TYPE FILE FILES "/media/psf/Home/Resources/git-osc-qml/app/git-osc-qml/app/Main.qml")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/qml/git-osc-qml" TYPE FILE FILES
+    "/media/psf/Home/Resources/git-osc-qml/app/git-osc-qml/app/hot.qml"
+    "/media/psf/Home/Resources/git-osc-qml/app/git-osc-qml/app/latest.qml"
+    "/media/psf/Home/Resources/git-osc-qml/app/git-osc-qml/app/Main.qml"
+    "/media/psf/Home/Resources/git-osc-qml/app/git-osc-qml/app/recommend.qml"
+    )
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 

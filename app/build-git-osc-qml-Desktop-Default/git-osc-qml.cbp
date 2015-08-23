@@ -160,6 +160,12 @@
       </Build>
       <Unit filename="/media/psf/Home/Resources/git-osc-qml/app/git-osc-qml/app/Main.qml">
       </Unit>
+      <Unit filename="/media/psf/Home/Resources/git-osc-qml/app/git-osc-qml/app/hot.qml">
+      </Unit>
+      <Unit filename="/media/psf/Home/Resources/git-osc-qml/app/git-osc-qml/app/latest.qml">
+      </Unit>
+      <Unit filename="/media/psf/Home/Resources/git-osc-qml/app/git-osc-qml/app/recommend.qml">
+      </Unit>
       <Unit filename="/media/psf/Home/Resources/git-osc-qml/app/git-osc-qml/app/tests/autopilot/git-osc-qml/__init__.py">
       </Unit>
       <Unit filename="/media/psf/Home/Resources/git-osc-qml/app/git-osc-qml/app/tests/autopilot/git-osc-qml/tests/__init__.py">

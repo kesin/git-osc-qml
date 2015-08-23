@@ -7,4 +7,4 @@ ace0201e6e525c74c8cf84e82cce048e CMakeFiles/check
 3dc45e05175b84d502514b48c358bcda app/CMakeFiles/git-osc-qml_QMlFiles
 3dc45e05175b84d502514b48c358bcda app/CMakeFiles/git-osc-qml_UnitTestFiles
 4fa5c51c0016721e8cf4059d4d8a2a0a po/CMakeFiles/com.zoker.git-osc-qml.desktop
-e8ead377d7f80edd880903b56e22f3a0 po/CMakeFiles/git-osc-qml.zoker.pot
+a62ba52efde0ce93a11a34190b121369 po/CMakeFiles/git-osc-qml.zoker.pot

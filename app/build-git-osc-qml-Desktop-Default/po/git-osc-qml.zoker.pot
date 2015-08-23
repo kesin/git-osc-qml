@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-08-23 12:07+0800\n"
+"POT-Creation-Date: 2015-08-23 12:23+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,6 +16,30 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: 8bit\n"
+
+#: ../app/hot.qml:5
+msgid "Hot Projects"
+msgstr ""
+
+#: ../app/hot.qml:19
+msgid "This is hot page"
+msgstr ""
+
+#: ../app/latest.qml:5
+msgid "Latest Projects"
+msgstr ""
+
+#: ../app/latest.qml:19
+msgid "This is latest page"
+msgstr ""
+
+#: ../app/recommend.qml:5
+msgid "Recommend Projects"
+msgstr ""
+
+#: ../app/recommend.qml:19
+msgid "This is page one"
+msgstr ""
 
 #: /media/psf/Home/Resources/git-osc-qml/app/build-git-osc-qml-Desktop-Default/po/com.zoker.git-osc-qml.desktop.in.h:1
 msgid "git-osc-qml"
