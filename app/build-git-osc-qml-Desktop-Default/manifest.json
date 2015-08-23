@@ -1,0 +1,17 @@
+{
+    "name": "git-osc-qml.zoker",
+    "description": "description of git-osc-qml",
+    "architecture": "all",
+    "title": "git-osc-qml",
+    "hooks": {
+        "com.zoker.git-osc-qml": {
+            "apparmor": "com.zoker.git-osc-qml.apparmor",
+            "desktop":  "com.zoker.git-osc-qml.desktop"
+        }
+    },
+    "version": "0.1",
+    "maintainer": "Zoker <kaixuanguiqu@gmail.com>",
+    "framework" : "ubuntu-sdk-15.04"
+}
+
+

@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=git-osc-qml
+Comment=My project description
+Exec=qmlscene $@ share/qml/git-osc-qml/Main.qml
+Icon=graphics/git-osc-qml.png
+Terminal=false
+Type=Application
+X-Ubuntu-Touch=true
+
+
+

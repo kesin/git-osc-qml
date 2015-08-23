@@ -1,0 +1,11 @@
+[Desktop Entry]
+_Name=git-osc-qml
+Comment=My project description
+Exec=@EXEC@
+Icon=@ICON@
+Terminal=false
+Type=Application
+X-Ubuntu-Touch=true
+
+
+

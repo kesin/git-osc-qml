@@ -1,0 +1,10 @@
+# Hashes of file build rules.
+13fded81a2b0fcdca354790118596f07 CMakeFiles/autopilot
+ace0201e6e525c74c8cf84e82cce048e CMakeFiles/check
+6e028910b157b9dc9f7b922e3df4a3bc CMakeFiles/git-osc-qml_ClickFiles
+13fc92416d279b7e90725fc679bc5145 CMakeFiles/run
+3dc45e05175b84d502514b48c358bcda app/CMakeFiles/git-osc-qml_AutopilotFiles
+3dc45e05175b84d502514b48c358bcda app/CMakeFiles/git-osc-qml_QMlFiles
+3dc45e05175b84d502514b48c358bcda app/CMakeFiles/git-osc-qml_UnitTestFiles
+4fa5c51c0016721e8cf4059d4d8a2a0a po/CMakeFiles/com.zoker.git-osc-qml.desktop
+e8ead377d7f80edd880903b56e22f3a0 po/CMakeFiles/git-osc-qml.zoker.pot

@@ -1,0 +1,9 @@
+/media/psf/Home/Resources/git-osc-qml/app/build-git-osc-qml-Desktop-Default/CMakeFiles/autopilot.dir
+/media/psf/Home/Resources/git-osc-qml/app/build-git-osc-qml-Desktop-Default/CMakeFiles/check.dir
+/media/psf/Home/Resources/git-osc-qml/app/build-git-osc-qml-Desktop-Default/po/CMakeFiles/com.zoker.git-osc-qml.desktop.dir
+/media/psf/Home/Resources/git-osc-qml/app/build-git-osc-qml-Desktop-Default/po/CMakeFiles/git-osc-qml.zoker.pot.dir
+/media/psf/Home/Resources/git-osc-qml/app/build-git-osc-qml-Desktop-Default/app/CMakeFiles/git-osc-qml_AutopilotFiles.dir
+/media/psf/Home/Resources/git-osc-qml/app/build-git-osc-qml-Desktop-Default/CMakeFiles/git-osc-qml_ClickFiles.dir
+/media/psf/Home/Resources/git-osc-qml/app/build-git-osc-qml-Desktop-Default/app/CMakeFiles/git-osc-qml_QMlFiles.dir
+/media/psf/Home/Resources/git-osc-qml/app/build-git-osc-qml-Desktop-Default/app/CMakeFiles/git-osc-qml_UnitTestFiles.dir
+/media/psf/Home/Resources/git-osc-qml/app/build-git-osc-qml-Desktop-Default/CMakeFiles/run.dir
