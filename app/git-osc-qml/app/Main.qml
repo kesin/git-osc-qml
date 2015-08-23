@@ -1,18 +1,13 @@
 import QtQuick 2.0
 import Ubuntu.Components 1.1
-
-/*!
-    \brief MainView with Tabs element.
-           First Tab has a single Label and
-           second Tab has a single ToolbarAction.
-*/
+import Ubuntu.Components.ListItems 1.0 as ListItem
 
 MainView {
     // objectName for functional testing purposes (autopilot-qt5)
     objectName: "mainView"
 
     // Note! applicationName needs to match the "name" field of the click manifest
-    applicationName: "git-osc-qml.zoker"
+    applicationName: "tabapp.ubuntu"
 
     /*
      This property enables the application to change orientation
@@ -23,37 +18,19 @@ MainView {
     // Removes the old toolbar and enables new features of the new header.
     useDeprecatedToolbar: false
 
-    width: units.gu(100)
+    width: units.gu(50)
     height: units.gu(75)
 
-    Page {
-        title: i18n.tr("com.zoker.git-osc-qml")
 
-        Column {
-            spacing: units.gu(1)
-            anchors {
-                margins: units.gu(2)
-                fill: parent
-            }
+    Tabs {
+        id: tabs
 
-            Label {
-                id: label
-                objectName: "label"
+        Tab1 {
+            objectName: "Tab1"
+        }
 
-                text: i18n.tr("Hello..")
-            }
-
-            Button {
-                objectName: "button"
-                width: parent.width
-
-                text: i18n.tr("Tap me!")
-
-                onClicked: {
-                    label.text = i18n.tr("..world!")
-                }
-            }
+        Tab2 {
+            objectName: "Tab2"
         }
     }
 }
-
