@@ -21,21 +21,70 @@ MainView {
     width: units.gu(50)
     height: units.gu(75)
 
-
-    Tabs {
-        id: tabs
-
-        Recommend {
-            objectName: "Recommend"
+    Action {
+        id: reloadAction
+        text: "Reload"
+        iconName: "reload"
+        onTriggered: {
+            console.log("reload is clicked")
         }
+    }
 
-        Hot {
-            objectName: "Hot"
+    PageStack {
+        id: pageStack
+        Component.onCompleted: push(tabs)
+
+        Tabs {
+            id: tabs
+            Tab {
+                title: "Recommend Projects"
+                page: Page {
+                    ListView {
+                        clip: true
+                        anchors.fill: parent
+                        model: 20
+                        delegate: ListItem.Standard {
+                            iconName: "compose"
+                            text: "Item "+modelData
+                        }
+                    }
+//                    Button {
+//                        anchors.centerIn: parent
+//                        onClicked: pageStack.push(project)
+//                        text: "Press"
+//                    }
+                }
+            }
+            Tab {
+                title: "Hot Projects"
+                page: Page {
+                    Button {
+                        anchors.centerIn: parent
+                        onClicked: pageStack.push(project)
+                        text: "Hot"
+                    }
+                }
+            }
+            Tab {
+                title: "Latest Projects"
+                page: Page {
+                    Button {
+                        anchors.centerIn: parent
+                        onClicked: pageStack.push(project)
+                        text: "Latest"
+                    }
+                }
+            }
         }
-
-        Latest {
-            objectName: "Latest"
+        Page {
+            id: project
+            visible: false
+            title: "Page on stack"
+            Label {
+                anchors.centerIn: parent
+                text: "Press back to return to the tabs"
+            }
         }
-
     }
 }
+
