@@ -2,14 +2,14 @@ import QtQuick 2.0
 import Ubuntu.Components 1.1
 
 Tab {
-    title: i18n.tr("Tab 1")
+    title: i18n.tr("Recommend Projects")
 
     Action {
         id: reloadAction
         text: "Reload"
         iconName: "reload"
         onTriggered: {
-            console.log("reload is clicked")
+            alert('hey!');
         }
     }
 

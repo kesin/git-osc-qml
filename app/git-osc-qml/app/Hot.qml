@@ -2,7 +2,7 @@ import QtQuick 2.0
 import Ubuntu.Components 1.1
 
 Tab {
-    title: i18n.tr("Tab 2")
+    title: i18n.tr("Hot Projects")
 
     page: Page {
         Label {

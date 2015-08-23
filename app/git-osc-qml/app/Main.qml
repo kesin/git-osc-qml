@@ -25,12 +25,17 @@ MainView {
     Tabs {
         id: tabs
 
-        Tab1 {
-            objectName: "Tab1"
+        Recommend {
+            objectName: "Recommend"
         }
 
-        Tab2 {
-            objectName: "Tab2"
+        Hot {
+            objectName: "Hot"
         }
+
+        Latest {
+            objectName: "Latest"
+        }
+
     }
 }
