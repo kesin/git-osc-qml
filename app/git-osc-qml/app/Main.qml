@@ -42,10 +42,16 @@ MainView {
                     ListView {
                         clip: true
                         anchors.fill: parent
-                        model: 20
+                        JSONListModel {
+                            id: recommend_model
+                            source: "json.txt"
+                            query: "$[*]"
+                        }
+                        model: recommend_model.model
+
                         delegate: ListItem.Standard {
                             iconName: "compose"
-                            text: "Item "+modelData
+                            text: model.name + " : " +model.description
                         }
                     }
                     tools: ToolbarItems {
