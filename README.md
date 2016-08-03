@@ -1,4 +1,4 @@
-###GitOSC with QML
+###GitOSC with QML (no more update)
 
 Git@OSC QML App，for Ubuntu desktop、Ubuntu Mobile、Andriod and even IOS.
 
